@@ -1,0 +1,105 @@
+ul,
+li {
+    /*做时间轴的线*/
+    margin: 0;
+    padding: 0;
+}
+
+.layui-timeline {
+    padding-left: 10%;
+    padding-top:20px
+}
+
+.layui-timeline-item {
+    position: relative;
+    padding-bottom: 20px;
+    margin-top:-12px;
+}
+
+li {
+    list-style: none;
+}
+
+.layui-timeline-item:first-child::before {
+    display: block;
+}
+
+.layui-timeline-item:last-child::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 0;
+    z-index: 0;
+    width: 0;
+}
+
+.layui-timeline-item::before {
+    content: '';
+    position: absolute;
+    /* left: 5px; */
+    top: 0;
+    z-index: 0;
+    width: 1px;
+    height: 100%;
+}
+
+.layui-timeline-item::before,
+hr {
+    background-color: #569fff;
+}
+
+.layui-timeline-axis {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    color: #5FB878;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.layui-icon {
+    font-family: layui-icon !important;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.layui-timeline-content {
+    padding-left: 25px;
+}
+
+.layui-text {
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+    top:-10px;
+}
+
+.layui-timeline-title {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #569fff;
+}
+
+.etime-first {
+    top: 45%;
+    left: -100px;
+    position: absolute;
+}
+
+.time-first {
+    position: absolute;
+    left: -90px;
+}
+</style>
