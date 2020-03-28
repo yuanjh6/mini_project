@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1351135884 source:d:\kpan\code\mycpp\test\main.cpp
+	<Windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<string>
+	"ICTCLAS/ICTCLAS50.h"
+
+1351146366 source:d:\downloads\mycpp\test\main.cpp
+	<Windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<string>
+	"ICTCLAS/ICTCLAS50.h"
+
